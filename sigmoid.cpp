@@ -5,8 +5,8 @@
 #include <math.h>
 using namespace std;
 float weight[13];
-float lr = 1;   // learning Rate
-float bias = 1; // bias parameter
+float lr = 1;
+float bias = 1;
 void get_random(float d[], int n)
 {
     srand((unsigned int)time(NULL));
